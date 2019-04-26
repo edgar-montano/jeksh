@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# CONFIG OPTIONS
 author="edgar_montano"
 editor="vim"
 filepath="_posts"
