@@ -35,7 +35,7 @@ FILENAME=$(echo "$filepath/$DATE-$TITLE.md")
 touch $FILENAME
 cat > $FILENAME << EOF
 ---
-title: $TITLE
+title: $title
 layout: post
 image: $image
 date: $DATE $TIME
@@ -47,7 +47,6 @@ author: $author
 description: $description
 ---
 
-# $title
 EOF
 
 $editor $FILENAME
