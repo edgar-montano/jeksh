@@ -47,6 +47,8 @@ author: $author
 description: $description
 ---
 
+***
+
 EOF
 
 $editor $FILENAME
