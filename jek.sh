@@ -28,7 +28,7 @@ echo -e "Enter a description \c"
 read description
 
 TITLE=${title// /-}
-DATE=$(date +%Y-%d-%m)
+DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M)
 FILENAME=$(echo "$filepath/$DATE-$TITLE.md")
 
