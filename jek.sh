@@ -27,6 +27,8 @@ read tag
 echo -e "Enter a description \c"
 read description
 
+mkdir -p $filepath
+
 TITLE=${title// /-}
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M)
